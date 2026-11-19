@@ -1,0 +1,49 @@
+
+# SISTEM PROFIL KARAKTER GAME RPG
+
+# 1. Membuat variabel karakter
+nama_hero = "Arjuna"
+level = 10
+hp = 95.5
+is_alive = True
+
+inventory = ["Pedang", "Busur", "Perisai"]
+
+atribut = {
+    "kekuatan": 80,
+    "kelincahan": 65
+}
+
+# 2. Menampilkan informasi karakter
+print("=== PROFIL KARAKTER ===")
+print("Nama Hero:", nama_hero)
+print("Level:", level)
+print("HP:", hp)
+print("Status Hidup:", is_alive)
+print("Inventory:", inventory)
+print("Atribut:", atribut)
+
+# 3. Menampilkan tipe data
+print("\n=== TIPE DATA ===")
+print("Nama Hero:", type(nama_hero))
+print("Level:", type(level))
+print("HP:", type(hp))
+print("Is Alive:", type(is_alive))
+print("Inventory:", type(inventory))
+print("Atribut:", type(atribut))
+
+# 4. Menambahkan item baru
+inventory.append("Ramuan HP")
+
+# Naik level
+level = float(level)
+level = level + 0.5
+
+# 5. Menampilkan informasi terbaru
+print("\n=== PROFIL TERBARU ===")
+print("Nama Hero:", nama_hero)
+print("Level:", level)
+print("HP:", hp)
+print("Status Hidup:", is_alive)
+print("Inventory:", inventory)
+print("Atribut:", atribut)
